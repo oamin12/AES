@@ -1,4 +1,4 @@
-module keyExpansion_tb();
+module keyExpansion128_tb();
 
 reg [127:0] inputValue;
 wire [127:0] outputValue;
@@ -14,7 +14,7 @@ initial begin
 
 
 end
-keyExpansion v(inputValue,rCon , outputValue);
+keyExpansion128 v(inputValue,rCon , outputValue);
 
 
 endmodule 
