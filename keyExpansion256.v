@@ -10,7 +10,7 @@ wire [31:0] tempSbox;
 
 
 
-ShiftRows s(key[31:0],1,rot);
+ShiftRowsKey32 s(key[31:0],1,rot);
 sbox sbox1(rot,sboxOut);
 assign xorRcon = sboxOut^rCon;
 

@@ -2,7 +2,7 @@ module keyExpansion128_tb();
 
 reg [127:0] inputValue;
 wire [127:0] outputValue;
-reg [31:0] rCon=32'h40000000;
+reg [31:0] rCon=32'h01000000;
 //assign rCon=8'h01000000;
 
 initial begin 

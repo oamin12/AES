@@ -8,7 +8,7 @@ initial begin
  $monitor ("%h   %h", 
   	  inputValue, outputValue);
 	  
-inputValue = 127'h 63cab7040953d051cd60e0e7ba70e18c;
+ inputValue = 127'h 63cab7040953d051cd60e0e7ba70e18c;
 
 
 
